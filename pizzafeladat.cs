@@ -22,7 +22,7 @@ namespace Pizza23_28
 
 
             MySqlConnection connection = new MySqlConnection(builder.ConnectionString);
-            Console.WriteLine("Melyik feladatot szeretné?(23-28");
+            Console.WriteLine("Válassz feladatot(23-28)");
 
             int asd = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
